@@ -3,31 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [2.2.3](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-font@2.2.2...@paladin-analytics/rpdf-font@2.2.3) (2022-11-08)
+## [2.2.3](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-font@2.2.2...@surge-global-engineering/full-rpdf-font@2.2.3) (2022-11-08)
 
-**Note:** Version bump only for package @paladin-analytics/rpdf-font
-
-
-
-
-
-## [2.2.2](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-font@2.2.1...@paladin-analytics/rpdf-font@2.2.2) (2022-07-15)
-
-**Note:** Version bump only for package @paladin-analytics/rpdf-font
+**Note:** Version bump only for package @surge-global-engineering/full-rpdf-font
 
 
 
 
 
-## [2.2.1](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-font@2.2.0...@paladin-analytics/rpdf-font@2.2.1) (2022-06-28)
+## [2.2.2](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-font@2.2.1...@surge-global-engineering/full-rpdf-font@2.2.2) (2022-07-15)
 
-**Note:** Version bump only for package @paladin-analytics/rpdf-font
-
-
+**Note:** Version bump only for package @surge-global-engineering/full-rpdf-font
 
 
 
-# [2.2.0](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-font@2.1.1...@paladin-analytics/rpdf-font@2.2.0) (2022-05-27)
+
+
+## [2.2.1](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-font@2.2.0...@surge-global-engineering/full-rpdf-font@2.2.1) (2022-06-28)
+
+**Note:** Version bump only for package @surge-global-engineering/full-rpdf-font
+
+
+
+
+
+# [2.2.0](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-font@2.1.1...@surge-global-engineering/full-rpdf-font@2.2.0) (2022-05-27)
 
 
 ### Features
@@ -38,7 +38,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [2.1.1](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-font@2.1.0...@paladin-analytics/rpdf-font@2.1.1) (2022-04-28)
+## [2.1.1](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-font@2.1.0...@surge-global-engineering/full-rpdf-font@2.1.1) (2022-04-28)
 
 
 ### Reverts
@@ -49,7 +49,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.1.0](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-font@2.0.18...@paladin-analytics/rpdf-font@2.1.0) (2022-04-25)
+# [2.1.0](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-font@2.0.18...@surge-global-engineering/full-rpdf-font@2.1.0) (2022-04-25)
 
 
 ### Features

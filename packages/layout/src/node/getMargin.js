@@ -1,4 +1,4 @@
-import Yoga from '@paladin-analytics/rpdf-yoga';
+import Yoga from '@surge-global-engineering/full-rpdf-yoga';
 
 const getComputedMargin = (node, edge) => {
   const yogaNode = node._yogaNode;

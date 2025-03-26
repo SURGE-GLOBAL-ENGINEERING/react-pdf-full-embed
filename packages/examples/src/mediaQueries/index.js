@@ -4,7 +4,7 @@ import {
   Page,
   View,
   StyleSheet,
-} from '@paladin-analytics/rpdf-renderer';
+} from '@surge-global-engineering/full-rpdf-renderer';
 
 const styles = StyleSheet.create({
   body: {

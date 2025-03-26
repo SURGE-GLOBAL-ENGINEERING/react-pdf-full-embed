@@ -1,6 +1,6 @@
 import * as R from 'ramda';
-import * as P from '@paladin-analytics/rpdf-primitives';
-import stylesheet from '@paladin-analytics/rpdf-stylesheet';
+import * as P from '@surge-global-engineering/full-rpdf-primitives';
+import stylesheet from '@surge-global-engineering/full-rpdf-stylesheet';
 
 const isLink = R.propEq('type', P.Link);
 

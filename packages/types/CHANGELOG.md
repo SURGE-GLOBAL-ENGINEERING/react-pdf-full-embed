@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-# [2.5.0](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-types@2.4.0...@paladin-analytics/rpdf-types@2.5.0) (2022-11-08)
+# [2.5.0](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-types@2.4.0...@surge-global-engineering/full-rpdf-types@2.5.0) (2022-11-08)
 
 
 ### Features
@@ -14,7 +14,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.4.0](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-types@2.3.0...@paladin-analytics/rpdf-types@2.4.0) (2022-07-15)
+# [2.4.0](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-types@2.3.0...@surge-global-engineering/full-rpdf-types@2.4.0) (2022-07-15)
 
 
 ### Features
@@ -25,7 +25,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.3.0](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-types@2.2.0...@paladin-analytics/rpdf-types@2.3.0) (2022-06-28)
+# [2.3.0](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-types@2.2.0...@surge-global-engineering/full-rpdf-types@2.3.0) (2022-06-28)
 
 
 ### Features
@@ -36,7 +36,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.2.0](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-types@2.1.1...@paladin-analytics/rpdf-types@2.2.0) (2022-05-27)
+# [2.2.0](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-types@2.1.1...@surge-global-engineering/full-rpdf-types@2.2.0) (2022-05-27)
 
 
 ### Features
@@ -47,7 +47,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [2.1.1](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-types@2.1.0...@paladin-analytics/rpdf-types@2.1.1) (2022-04-28)
+## [2.1.1](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-types@2.1.0...@surge-global-engineering/full-rpdf-types@2.1.1) (2022-04-28)
 
 
 ### Reverts
@@ -58,7 +58,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.1.0](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-types@2.0.11...@paladin-analytics/rpdf-types@2.1.0) (2022-04-25)
+# [2.1.0](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-types@2.0.11...@surge-global-engineering/full-rpdf-types@2.1.0) (2022-04-25)
 
 
 ### Features

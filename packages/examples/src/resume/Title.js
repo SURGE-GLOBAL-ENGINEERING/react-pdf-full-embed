@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, StyleSheet } from '@paladin-analytics/rpdf-renderer';
+import { Text, StyleSheet } from '@surge-global-engineering/full-rpdf-renderer';
 
 const styles = StyleSheet.create({
   title: {

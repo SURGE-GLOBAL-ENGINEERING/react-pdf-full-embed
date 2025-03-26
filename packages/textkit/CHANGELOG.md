@@ -3,15 +3,15 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## [2.3.3](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-textkit@2.3.2...@paladin-analytics/rpdf-textkit@2.3.3) (2022-07-27)
+## [2.3.3](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-textkit@2.3.2...@surge-global-engineering/full-rpdf-textkit@2.3.3) (2022-07-27)
 
-**Note:** Version bump only for package @paladin-analytics/rpdf-textkit
-
-
+**Note:** Version bump only for package @surge-global-engineering/full-rpdf-textkit
 
 
 
-## [2.3.2](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-textkit@2.3.1...@paladin-analytics/rpdf-textkit@2.3.2) (2022-06-18)
+
+
+## [2.3.2](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-textkit@2.3.1...@surge-global-engineering/full-rpdf-textkit@2.3.2) (2022-06-18)
 
 
 ### Bug Fixes
@@ -22,7 +22,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [2.3.1](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-textkit@2.3.0...@paladin-analytics/rpdf-textkit@2.3.1) (2022-06-14)
+## [2.3.1](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-textkit@2.3.0...@surge-global-engineering/full-rpdf-textkit@2.3.1) (2022-06-14)
 
 
 ### Bug Fixes
@@ -33,7 +33,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.3.0](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-textkit@2.2.1...@paladin-analytics/rpdf-textkit@2.3.0) (2022-06-09)
+# [2.3.0](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-textkit@2.2.1...@surge-global-engineering/full-rpdf-textkit@2.3.0) (2022-06-09)
 
 
 ### Bug Fixes
@@ -49,15 +49,15 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [2.2.1](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-textkit@2.2.0...@paladin-analytics/rpdf-textkit@2.2.1) (2022-06-05)
+## [2.2.1](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-textkit@2.2.0...@surge-global-engineering/full-rpdf-textkit@2.2.1) (2022-06-05)
 
-**Note:** Version bump only for package @paladin-analytics/rpdf-textkit
-
-
+**Note:** Version bump only for package @surge-global-engineering/full-rpdf-textkit
 
 
 
-# [2.2.0](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-textkit@2.1.2...@paladin-analytics/rpdf-textkit@2.2.0) (2022-05-27)
+
+
+# [2.2.0](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-textkit@2.1.2...@surge-global-engineering/full-rpdf-textkit@2.2.0) (2022-05-27)
 
 
 ### Features
@@ -68,7 +68,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [2.1.2](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-textkit@2.1.1...@paladin-analytics/rpdf-textkit@2.1.2) (2022-05-02)
+## [2.1.2](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-textkit@2.1.1...@surge-global-engineering/full-rpdf-textkit@2.1.2) (2022-05-02)
 
 
 ### Bug Fixes
@@ -79,7 +79,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [2.1.1](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-textkit@2.1.0...@paladin-analytics/rpdf-textkit@2.1.1) (2022-04-28)
+## [2.1.1](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-textkit@2.1.0...@surge-global-engineering/full-rpdf-textkit@2.1.1) (2022-04-28)
 
 
 ### Reverts
@@ -90,7 +90,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-# [2.1.0](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-textkit@2.0.20...@paladin-analytics/rpdf-textkit@2.1.0) (2022-04-25)
+# [2.1.0](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-textkit@2.0.20...@surge-global-engineering/full-rpdf-textkit@2.1.0) (2022-04-25)
 
 
 ### Features
@@ -101,7 +101,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [2.0.20](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-textkit@2.0.19...@paladin-analytics/rpdf-textkit@2.0.20) (2022-04-22)
+## [2.0.20](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-textkit@2.0.19...@surge-global-engineering/full-rpdf-textkit@2.0.20) (2022-04-22)
 
 
 ### Bug Fixes
@@ -114,7 +114,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [2.0.19](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-textkit@2.0.18...@paladin-analytics/rpdf-textkit@2.0.19) (2022-04-16)
+## [2.0.19](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-textkit@2.0.18...@surge-global-engineering/full-rpdf-textkit@2.0.19) (2022-04-16)
 
 
 ### Bug Fixes
@@ -129,7 +129,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [2.0.18](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-textkit@2.0.17...@paladin-analytics/rpdf-textkit@2.0.18) (2022-04-15)
+## [2.0.18](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-textkit@2.0.17...@surge-global-engineering/full-rpdf-textkit@2.0.18) (2022-04-15)
 
 
 ### Bug Fixes
@@ -141,7 +141,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [2.0.17](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-textkit@2.0.16...@paladin-analytics/rpdf-textkit@2.0.17) (2022-04-14)
+## [2.0.17](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-textkit@2.0.16...@surge-global-engineering/full-rpdf-textkit@2.0.17) (2022-04-14)
 
 
 ### Bug Fixes
@@ -152,7 +152,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [2.0.16](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-textkit@2.0.15...@paladin-analytics/rpdf-textkit@2.0.16) (2022-03-14)
+## [2.0.16](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-textkit@2.0.15...@surge-global-engineering/full-rpdf-textkit@2.0.16) (2022-03-14)
 
 
 ### Bug Fixes
@@ -163,7 +163,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [2.0.15](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-textkit@2.0.14...@paladin-analytics/rpdf-textkit@2.0.15) (2022-03-11)
+## [2.0.15](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-textkit@2.0.14...@surge-global-engineering/full-rpdf-textkit@2.0.15) (2022-03-11)
 
 
 ### Bug Fixes
@@ -174,7 +174,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [2.0.14](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-textkit@2.0.13...@paladin-analytics/rpdf-textkit@2.0.14) (2022-03-07)
+## [2.0.14](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-textkit@2.0.13...@surge-global-engineering/full-rpdf-textkit@2.0.14) (2022-03-07)
 
 
 ### Bug Fixes
@@ -186,7 +186,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
-## [2.0.13](https://github.com/Paladin-Analytics/react-pdf/compare/@paladin-analytics/rpdf-textkit@2.0.12...@paladin-analytics/rpdf-textkit@2.0.13) (2021-12-16)
+## [2.0.13](https://github.com/Paladin-Analytics/react-pdf/compare/@surge-global-engineering/full-rpdf-textkit@2.0.12...@surge-global-engineering/full-rpdf-textkit@2.0.13) (2021-12-16)
 
 
 ### Bug Fixes

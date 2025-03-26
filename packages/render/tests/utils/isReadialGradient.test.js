@@ -1,4 +1,4 @@
-import * as P from '@paladin-analytics/rpdf-primitives';
+import * as P from '@surge-global-engineering/full-rpdf-primitives';
 import isRadialGradient from '../../src/utils/isRadialGradient';
 
 const ASSERTED_TYPE = P.RadialGradient;

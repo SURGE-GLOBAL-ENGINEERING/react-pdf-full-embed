@@ -1,4 +1,4 @@
-import * as P from '@paladin-analytics/rpdf-primitives';
+import * as P from '@surge-global-engineering/full-rpdf-primitives';
 import isSvg from '../../src/utils/isSvg';
 
 const ASSERTED_TYPE = P.Svg;
