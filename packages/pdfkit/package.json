@@ -1,6 +1,6 @@
 {
   "name": "@surge-global-engineering/full-rpdf-pdfkit",
-  "version": "2.0.17",
+  "version": "2.0.18",
   "description": "A PDF generation library for Node.js",
   "main": "lib/pdfkit.cjs.js",
   "module": "lib/pdfkit.es.js",

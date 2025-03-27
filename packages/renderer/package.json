@@ -1,6 +1,6 @@
 {
   "name": "@surge-global-engineering/full-rpdf-renderer",
-  "version": "2.4.9",
+  "version": "2.4.10",
   "license": "MIT",
   "types": "index.d.ts",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
@@ -22,8 +22,8 @@
   "dependencies": {
     "@babel/runtime": "^7.6.2",
     "@surge-global-engineering/full-rpdf-font": "^2.2.4",
-    "@surge-global-engineering/full-rpdf-layout": "^2.7.9",
-    "@surge-global-engineering/full-rpdf-pdfkit": "^2.0.17",
+    "@surge-global-engineering/full-rpdf-layout": "^2.7.10",
+    "@surge-global-engineering/full-rpdf-pdfkit": "^2.0.18",
     "@surge-global-engineering/full-rpdf-primitives": "^2.0.6",
     "@surge-global-engineering/full-rpdf-render": "^2.1.22",
     "@surge-global-engineering/full-rpdf-types": "^2.5.1",

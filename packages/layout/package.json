@@ -1,6 +1,6 @@
 {
   "name": "@surge-global-engineering/full-rpdf-layout",
-  "version": "2.7.9",
+  "version": "2.7.10",
   "license": "MIT",
   "author": "Diego Muracciole <diegomuracciole@gmail.com>",
   "homepage": "https://github.com/diegomura/react-pdf#readme",
@@ -14,7 +14,7 @@
   "dependencies": {
     "@babel/runtime": "^7.6.2",
     "@surge-global-engineering/full-rpdf-image": "^2.0.9",
-    "@surge-global-engineering/full-rpdf-pdfkit": "^2.0.17",
+    "@surge-global-engineering/full-rpdf-pdfkit": "^2.0.18",
     "@surge-global-engineering/full-rpdf-primitives": "^2.0.6",
     "@surge-global-engineering/full-rpdf-stylesheet": "^2.0.24",
     "@surge-global-engineering/full-rpdf-textkit": "^2.3.4",
