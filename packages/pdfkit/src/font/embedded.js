@@ -16,10 +16,10 @@ const createEmbeddedFont = PDFFont =>
       this.document = document;
       this.font = font;
       this.id = id;
-      this.subset = this.font.createSubset();
-      this.unicode = [[0]];
-      this.widths = [this.font.getGlyph(0).advanceWidth];
-
+      
+      this.unicode = [];
+      this.widths = [];
+      
       this.name = this.font.postscriptName;
       this.scale = 1000 / this.font.unitsPerEm;
       this.ascender = this.font.ascent * this.scale;
@@ -28,14 +28,23 @@ const createEmbeddedFont = PDFFont =>
       this.capHeight = this.font.capHeight * this.scale;
       this.lineGap = this.font.lineGap * this.scale;
       this.bbox = this.font.bbox;
+      
+      // Initialize with proper metrics for all glyphs
+      const numGlyphs = this.font.numGlyphs;
+      for (let gid = 0; gid < numGlyphs; gid++) {
+        const glyph = this.font.getGlyph(gid);
+        // Apply consistent scaling for widths
+        this.widths[gid] = glyph.advanceWidth * this.scale;
+        this.unicode[gid] = this.font._cmapProcessor.codePointsForGlyph(gid);
+      }
 
       this.layoutCache = Object.create(null);
     }
-
+    
     layoutRun(text, features) {
       const run = this.font.layout(text, features);
 
-      // Normalize position values
+      // Apply consistent scaling to all positions
       for (let i = 0; i < run.positions.length; i++) {
         const position = run.positions[i];
         for (let key in position) {
@@ -73,7 +82,6 @@ const createEmbeddedFont = PDFFont =>
       let advanceWidth = 0;
 
       // Split the string by words to increase cache efficiency.
-      // For this purpose, spaces and tabs are a good enough delimeter.
       let last = 0;
       let index = 0;
       while (index <= text.length) {
@@ -104,12 +112,13 @@ const createEmbeddedFont = PDFFont =>
       const res = [];
       for (let i = 0; i < glyphs.length; i++) {
         const glyph = glyphs[i];
-        const gid = this.subset.includeGlyph(glyph.id);
+        const gid = glyph.id;
         res.push(`0000${gid.toString(16)}`.slice(-4));
-
+        
         if (this.widths[gid] == null) {
           this.widths[gid] = glyph.advanceWidth * this.scale;
         }
+        //
         if (this.unicode[gid] == null) {
           this.unicode[gid] = this.font._cmapProcessor.codePointsForGlyph(
             glyph.id,
@@ -124,12 +133,14 @@ const createEmbeddedFont = PDFFont =>
       const res = [];
       for (let i = 0; i < glyphs.length; i++) {
         const glyph = glyphs[i];
-        const gid = this.subset.includeGlyph(glyph.id);
+        const gid = glyph.id;
         res.push(`0000${gid.toString(16)}`.slice(-4));
-
+        
+        // Ensure width is properly set with consistent scaling
         if (this.widths[gid] == null) {
           this.widths[gid] = glyph.advanceWidth * this.scale;
         }
+        //
         if (this.unicode[gid] == null) {
           this.unicode[gid] = this.font._cmapProcessor.codePointsForGlyph(
             glyph.id,
@@ -147,14 +158,16 @@ const createEmbeddedFont = PDFFont =>
     }
 
     embed() {
-      const isCFF = this.subset.cff != null;
+      const isCFF = this.font.cff != null;
       const fontFile = this.document.ref();
 
       if (isCFF) {
         fontFile.data.Subtype = 'CIDFontType0C';
       }
 
-      this.subset.encodeStream().pipe(fontFile);
+      // Get the raw font data
+      const fontData = Buffer.from(this.font.stream.buffer);
+      fontFile.end(fontData);
 
       const familyClass =
         ((this.font['OS/2'] != null
@@ -175,12 +188,10 @@ const createEmbeddedFont = PDFFont =>
         flags |= 1 << 6;
       }
 
-      // generate a random tag (6 uppercase letters. 65 is the char code for 'A')
-      const tag = [0, 1, 2, 3, 4, 5]
-        .map(i => String.fromCharCode(Math.random() * 26 + 65))
-        .join('');
-      const name = tag + '+' + this.font.postscriptName;
+      // Use the original font name without tags for full embedding
+      const name = this.font.postscriptName;
 
+      // Create font descriptor with precise font metrics
       const { bbox } = this.font;
       const descriptor = this.document.ref({
         Type: 'FontDescriptor',
@@ -197,8 +208,8 @@ const createEmbeddedFont = PDFFont =>
         Descent: this.descender,
         CapHeight: (this.font.capHeight || this.font.ascent) * this.scale,
         XHeight: (this.font.xHeight || 0) * this.scale,
-        StemV: 0,
-      }); // not sure how to calculate this
+        StemV: 0, 
+      });
 
       if (isCFF) {
         descriptor.data.FontFile3 = fontFile;
@@ -236,13 +247,14 @@ const createEmbeddedFont = PDFFont =>
     }
 
     // Maps the glyph ids encoded in the PDF back to unicode strings
-    // Because of ligature substitutions and the like, there may be one or more
-    // unicode characters represented by each glyph.
     toUnicodeCmap() {
       const cmap = this.document.ref();
 
       const entries = [];
-      for (let codePoints of Array.from(this.unicode)) {
+      for (let i = 0; i < this.unicode.length; i++) {
+        const codePoints = this.unicode[i];
+        if (!codePoints || codePoints.length === 0) continue;
+        
         const encoded = [];
         for (let value of Array.from(codePoints)) {
           if (value > 0xffff) {
@@ -252,9 +264,9 @@ const createEmbeddedFont = PDFFont =>
           }
 
           encoded.push(toHex(value));
-
-          entries.push(`<${encoded.join(' ')}>`);
         }
+        
+        entries.push(`<${encoded.join(' ')}>`);
       }
 
       cmap.end(`\
